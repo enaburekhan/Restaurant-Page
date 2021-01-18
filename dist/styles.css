@@ -57,3 +57,13 @@ body{
       text-decoration: none;
       color: var(--black);
   }
+
+  .home-section {
+    height: 95vh;
+    background: url(./img/main.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+  }
+

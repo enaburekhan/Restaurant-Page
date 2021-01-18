@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans');
+
+
+:root{
+ --brightYellow:#E3B505;
+ --darkBrown:#BB9457;
+ --yellow:rgb(242, 180, 80); 
+ --brown:#382923;
+ --black:#191919;
+ --grey:#A9B2AC;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* background: linear-gradient(rgba(255,255,255,0.85),rgba(255,255,255,0.85)),url('../img/bodyBcg.jpeg'); */
+    color: var(--black);
+  }
+
+  .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 7vh;
+      padding: 1.5rem 0 0.7rem 0;
+      text-align: center;
+      list-style-type: none;
+      background-color: var(--brightYellow); 
+      font-size: 1.3rem;
+  }
+
+  .nav-home {
+    display: flex;
+    justify-content: space-evenly;  
+    list-style-type: none;
+    /* background-color: red; */
+     width: 30vw;
+  }
+
+  .food {
+    /* background-color: yellow;   */
+    width: 15vw; 
+    text-align: center;   
+  }
+
+  ul a {
+     color: var(--black); 
+     /* text-decoration: none; */
+  }
+
+  a:hover {
+      text-decoration: none;
+      color: var(--black);
+  }

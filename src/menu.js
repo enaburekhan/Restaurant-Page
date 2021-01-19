@@ -3,7 +3,7 @@ const displayMenuSection = (() => {
   const dataContainer = document.querySelector('#content');
   const menuSection = document.createElement('div');
   menuSection.setAttribute('id', 'menu');
-  menuSection.setAttribute('data-tab-content');
+  menuSection.setAttribute('data-tab-content', '');
   menuSection.innerHTML = `<div class="header">
   <h1>Menu</h1>
   <img src="./img/chef.png" alt="" width="50" height="50" />

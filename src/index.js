@@ -1,13 +1,34 @@
-// import _ from 'lodash';
+import { pageLoader } from "./pageloader";
+import { displayHomeSection } from "./home";
+import { displayMenuSection } from "./menu";
+import { displayContactSection } from "./contact";
 
-console.log('hello world');
-// function component() {
-//     const element = document.createElement('div');
+const tabs = document.querySelectorAll("[data-tab-target]");
+const tabContents = document.querySelectorAll("[data-tab-content]");
+
+// Navigation tabs
+tabs.forEach((tab) =>
+  tab.addEventListener("click", () => {
+    const target = document.querySelector(tab.dataset.tabTarget);
+    tabContents.forEach((tabContent) => {
+      tabContent.classList.remove("active");
+    });
+    tabs.forEach((tab) => {
+      tab.classList.remove("red");
+    });
+    tab.classList.add("red");
+    target.classList.add("active");
+  })
+);
+
+//Makes sure that menu navigation tab is colored after clicking button
+document.querySelector(".order-now").addEventListener("click", () => {
+    document.querySelector(`[data-tab-target="#menu"]`).classList.add("red");
+  });
   
-//     // Lodash, now imported by this script
-//     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  //Make sure page doesn't refresh on form submit
+  document.querySelector(`[type="submit"]`).addEventListener("click", () => {
+    document.querySelector("form").reset();
+  });
   
-//     return element;
-//   }
-  
-//   document.body.appendChild(component());
+  console.log(`Today is ${new Date().toUTCString()}. Very nice.`);

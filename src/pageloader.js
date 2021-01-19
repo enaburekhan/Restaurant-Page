@@ -1,4 +1,4 @@
-const pageloader = (() => {
+const pageLoader = (() => {
 //container
  
   const dataContainer = document.querySelector('#content');

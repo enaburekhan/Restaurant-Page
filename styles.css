@@ -21,8 +21,6 @@
  box-sizing: border-box;
 }
 
-
-
 body{
     font-family: 'Open Sans', sans-serif;
 
@@ -45,14 +43,17 @@ body{
       overflow: hidden;
       position: fixed;
       top: 0;
-      width: 100%;   
+      width: 100%; 
+      z-index: 99;
+        
   } 
 
   .nav-home {
     display: flex;
     justify-content: space-evenly;  
     list-style-type: none;
-     width: 30vw;
+    width: 30vw;
+    cursor: pointer;
   }
 
   .food {
@@ -203,16 +204,6 @@ body{
     font-style: italic;
     font-weight: 900;
     position: relative;    
-  }
-
-  .header h1::after {
-    content: "";
-    position: absolute;
-    top: 110%;
-    right: 10%;
-    width: 50%;
-    height: 2px;
-    background: var(--pink);     
   }
 
   .menu-section {

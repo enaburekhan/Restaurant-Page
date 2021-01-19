@@ -162,5 +162,58 @@ body{
   .home-section .work-hours span{
     padding-right: 0.1rem;    
   }
+
+  /* menu section */
+  .menu-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;     
+  }
+
+  .menu-header h1{
+    font-style: italic;
+    font-weight: 900;
+    position: relative;    
+  }
+
+  .menu-header h1::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    right: 10%;
+    width: 50%;
+    height: 2px;
+    background: var(--pink);     
+  }
+
+  .menu-section {
+    width: 70%;
+    background: rgba(116, 77, 77, 0.28);
+    padding: calc(2rem + 2vw);
+    border-radius: 1.2rem;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+  }
+
+  .menu-item {
+    flex-basis: 50rem;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+  }
+
+  .menu-item img {
+    width: calc(5rem + 8vw);
+    height: calc(5rem + 8vw);
+  }
+
+  .item-content {
+    padding: 0 1rem;
+  } 
+
   
- 

@@ -4,9 +4,10 @@ const dataContainer = document.querySelector('#content');
 
 const homeSection = document.createElement('div');
 
-homeSection.classList.add('tab-content');
+homeSection.setAttribute('id', 'home');
+homeSection.setAttribute('data-tab-content', '');
 
-homeSection.innerHTML = `<div class="home-section active data-tab-content">
+homeSection.innerHTML = `<div class="home-section header" data-tab-content>
 <div class="make-order">
     <h1>Make your order within Lagos, and we deliver to your doorstep</h1>
     <p>We take pride in making affordable healthy foods for a healthy society</p>

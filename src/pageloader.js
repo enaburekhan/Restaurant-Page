@@ -5,24 +5,34 @@ const pageLoader = (() => {
 
   const header = document.createElement('header')
   header.innerHTML = `<nav class="nav-bar">
-  <div class="food">
-    <p>Healthy Food</p>
-    
-  </div>
+    <p class="food">Healthy Food</p> 
+
+  <a href="#" class="hamburger">
+    <span class="line line1"></span>
+    <span class="line line2"></span>
+    <span class="line line3"></span>
+  </a>
   <ul class="nav-home">
-    <li>
-        <a href="#home" class="">Home</a>
-    </li>
-    <li>
-        <a href="#menu" class="">Menu</a>
-    </li>
-    <li>
-        <a href="#contact" class="">Contact us</a>
-    </li>   
+  <li data-tab-target="#home" class="tab">Home</li>
+  <li data-tab-target="#menu" class="tab">Menu</li>
+  <li data-tab-target="#contact" class="tab">Contact us</li>
   </ul>
-</nav>`;
+</nav> `;
 
 dataContainer.appendChild(header);
 
-
 })();
+
+{/* <nav>
+  <h2>Food-on-a-Plate</h2>
+  <a href="#" class="hamburger">
+    <span class="line line1"></span>
+    <span class="line line2"></span>
+    <span class="line line3"></span>
+  </a>
+  <ul class="links">
+    <li data-tab-target="#home" class="tab red">Home</li>
+    <li data-tab-target="#menu" class="tab">Menu</li>
+    <li data-tab-target="#contact" class="tab">Contact us</li>
+  </ul>
+</nav>` */}

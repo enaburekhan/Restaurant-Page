@@ -7,7 +7,7 @@ const pageLoader = (() => {
   header.innerHTML = `<nav class="nav-bar">
     <p class="food">Healthy Food</p> 
 
-  <a href="#" class="hamburger">
+  <a href="#" class="change">
     <span class="line line1"></span>
     <span class="line line2"></span>
     <span class="line line3"></span>

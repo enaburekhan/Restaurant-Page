@@ -27,10 +27,11 @@ The follwing skills have been practiced here:
 
 1. Open Terminal.
 2. Navigate to your desired location to download the contents of this repository.
-3. Copy and paste the following code into your project directory: git clone https://github.com/enaburekhan/Restaurant-Page.git
+3. Cd into the directory and write: git clone https://github.com/enaburekhan/Restaurant-Page.git
 4. run npm init in your project directory to generate a package.json file.
-5. run npm install webpack webpack-cli --save-dev to install webpack to the node_modules directory of your project.
-5. Run ```npx webpack```.
+5. Add script: "start": "webpack serve --open" to the package.json.
+6. run npm install webpack webpack-cli --save-dev to install webpack to the node_modules directory of your project.
+
 
 ## Author Details::
 

@@ -33,8 +33,4 @@ const displayHomeSection = (() => {
   dataContainer.appendChild(homeSection);
 })();
 
-/* eslint-disable import/prefer-default-export */
-
-export { displayHomeSection };
-
-/* eslint-enable import/prefer-default-export */
+export default displayHomeSection;

@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 
 import { pageLoader } from './pageloader';
-import { displayHomeSection } from './home';
-import { displayMenuSection } from './menu';
-import { displayContactSection } from './contact';
+import displayHomeSection from './home';
+import displayMenuSection from './menu';
+import displayContactSection from './contact';
 
 /* eslint-enable no-unused-vars */
 

@@ -56,8 +56,4 @@ const displayMenuSection = (() => {
   dataContainer.appendChild(menuSection);
 })();
 
-/* eslint-disable import/prefer-default-export */
-
-export { displayMenuSection };
-
-/* eslint-enable import/prefer-default-export */
+export default displayMenuSection;

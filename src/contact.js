@@ -50,8 +50,4 @@ const displayContactSection = (() => {
   dataContainer.appendChild(contactSection);
 })();
 
-/* eslint-disable import/prefer-default-export */
-
-export { displayContactSection };
-
-/* eslint-enable import/prefer-default-export */
+export default displayContactSection;

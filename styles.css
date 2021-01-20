@@ -79,7 +79,7 @@ body{
     display: block;
   }
 
-  .hamburger {
+  .change {
     position: absolute;
     top: 1.5rem;
     right: 2rem;
@@ -90,7 +90,7 @@ body{
     height: 0;
   }
   
-  .hamburger .line {
+  .change .line {
     height: 0;
     width: 100%;
     background: black;

@@ -1,5 +1,5 @@
 const displayMenuSection = (() => {
-  //container
+  // container
   const dataContainer = document.querySelector('#content');
   const menuSection = document.createElement('div');
   menuSection.setAttribute('id', 'menu');
@@ -53,9 +53,11 @@ const displayMenuSection = (() => {
 
 </div>`;
 
-dataContainer.appendChild(menuSection);
-
-
+  dataContainer.appendChild(menuSection);
 })();
 
+/* eslint-disable import/prefer-default-export */
+
 export { displayMenuSection };
+
+/* eslint-enable import/prefer-default-export */

@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 const pageLoader = (() => {
-//container
- 
+// container
+
   const dataContainer = document.querySelector('#content');
 
-  const header = document.createElement('header')
+  const header = document.createElement('header');
   header.innerHTML = `<nav class="nav-bar">
     <p class="food">Healthy Food</p> 
 
@@ -19,7 +20,7 @@ const pageLoader = (() => {
   </ul>
 </nav> `;
 
-dataContainer.appendChild(header);
-
+  dataContainer.appendChild(header);
 })();
 
+/* eslint-enable no-unused-vars */

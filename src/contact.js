@@ -1,10 +1,10 @@
 const displayContactSection = (() => {
-  //container
+  // container
   const dataContainer = document.querySelector('#content');
   const contactSection = document.createElement('div');
   contactSection.setAttribute('id', 'contact');
   contactSection.setAttribute('data-tab-content', '');
-  contactSection.innerHTML =`<div class="header">
+  contactSection.innerHTML = `<div class="header">
   <h1>Contact us</h1>
 </div>
 <div class="contact-container contact" >
@@ -47,8 +47,11 @@ const displayContactSection = (() => {
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11210.179421081382!2d3.295866798763569!3d6.597490141139069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9051c67a01c5%3A0xe3229cb022ead9ee!2sEgbeda!5e0!3m2!1sen!2sng!4v1611060774770!5m2!1sen!2sng" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>`;
 
-dataContainer.appendChild(contactSection);
-
+  dataContainer.appendChild(contactSection);
 })();
 
+/* eslint-disable import/prefer-default-export */
+
 export { displayContactSection };
+
+/* eslint-enable import/prefer-default-export */

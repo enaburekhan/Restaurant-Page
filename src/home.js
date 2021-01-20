@@ -1,13 +1,13 @@
 const displayHomeSection = (() => {
-//container
-const dataContainer = document.querySelector('#content'); 
+// container
+  const dataContainer = document.querySelector('#content');
 
-const homeSection = document.createElement('div');
+  const homeSection = document.createElement('div');
 
-homeSection.setAttribute('id', 'home');
-homeSection.setAttribute('data-tab-content', '');
+  homeSection.setAttribute('id', 'home');
+  homeSection.setAttribute('data-tab-content', '');
 
-homeSection.innerHTML = `<div class="home-section header" data-tab-content>
+  homeSection.innerHTML = `<div class="home-section header" data-tab-content>
 <div class="make-order">
     <h1>Make your order within Lagos, and we deliver to your doorstep</h1>
     <p>We take pride in making affordable healthy foods for a healthy society</p>
@@ -30,7 +30,11 @@ homeSection.innerHTML = `<div class="home-section header" data-tab-content>
 </div>
 </div>`;
 
-dataContainer.appendChild(homeSection);
+  dataContainer.appendChild(homeSection);
 })();
 
+/* eslint-disable import/prefer-default-export */
+
 export { displayHomeSection };
+
+/* eslint-enable import/prefer-default-export */

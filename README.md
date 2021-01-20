@@ -11,8 +11,7 @@ The follwing skills have been practiced here:
 [My Library](https://rawcdn.githack.com/enaburekhan/Book-Library/f77bcc4ee138f2cf06151cf9c62be5049c8340f8/index.html)
 
 ## Screenshot
-<img src="./img/readme.png">
-
+![readme](https://user-images.githubusercontent.com/51296741/105089961-18a91980-5a9e-11eb-96f4-bece4b8e6275.png)
 ## Built-With
 
 - HTML5
